@@ -1,2 +1,2 @@
-# boilergreat
-An awesome little boilerplate called boilergreat.
+# boilergreat: a boilerplate
+> An awesome little static site boilerplate called boilergreat.
