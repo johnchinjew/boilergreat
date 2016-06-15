@@ -8,4 +8,4 @@ Jets is mostly empty, the rest is yours to fill... Make something awesome!
 **Made with semicolons. If you like jets please share it!** http://github.com/johnchinjew/jets
 
 ## MIT License (do whatever)
-Copyright (c) 2016 John Chin-Jew
+Copyright 2016 John Chin-Jew
