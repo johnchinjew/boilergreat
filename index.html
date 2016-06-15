@@ -2,71 +2,40 @@
 <html lang='en-US'>
   <head>
 
-    <!-- Encoding -->
     <meta charset='UTF-8'>
-
-    <!-- Basic Page Info -->
-    <title>boilergreat: a boilerplate</title>
-    <meta name='description' content='An awesome little static site boilerplate called boilergreat.'>
-    <meta name='author' content='John Chin-Jew'>
-
-    <!-- CSS Dependencies -->
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css'>
-
-    <!-- CSS -->
-    <link rel='stylesheet' href='css/setup.css'>
-    <link rel='stylesheet' href='css/custom.css'>
-
-    <!-- Mobile Meta -->
+    <title>Jets: Just enough to start!</title>
+    <meta name='description' content='Jets is a boilerplate with Just Enough To Start!'>
+    <meta name='author' content='John Chin-Jew, hi@johnchinjew.com'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name='theme-color' content='#FFF'>
 
-    <!-- Social Meta -->
-    <meta property='og:title' content='boilergreat'>
-    <meta property='og:site_name' content='boilergreat'>
-    <meta property='og:description' content='A loveable boilerplate called boilergreat, made and used by @johnchinjew.'>
-    <meta property='og:image' content='hirez-favicon.png'>
-    <meta property='og:url' content='http://johnchinjew.com/'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css'>
+    <link rel='stylesheet' href='css/jets.css'>
+    <link rel='icon' href='favicon.png'>
 
-    <!-- Icons -->
-    <link rel='icon' href='img/favicon.png'>
+    <meta property='og:title' content='jets: just enough to start'>
+    <meta property='og:site_name' content='Github'>
+    <meta property='og:description' content='A boilerplate with Just Enough To Start!'>
+    <meta property='og:url' content='http://github.com/johnchinjew/jets'>
 
-    <!-- No Script -->
-    <noscript></noscript>
+    <base target='_blank'>
 
   </head>
   <body>
 
-    <!-- Page Layout -->
-    <header>
-      <h1>boilergreat</h1>
-      <p>
-        An awesome little static site boilerplate called boiler<emph>great</emph>, made and used by
-        <a href='http://t.co/pXbNd3eXqf' title='John Chin-Jew on Twitter'>@johnchinjew</a>.
-      </p>
-      <img src='img/stock/1.jpg' width='500'>
-      <img src='img/stock/2.jpg' width='500'>
-      <img src='img/stock/3.jpg' width='500'>
-      <img src='img/stock/4.jpg' width='500'>
-      <p>
-        boilergreat also starts you off with some great stock photos from the great folks at
-        <a href='http://unsplash.com'>Unsplash.com</a>
-      </p>
-    </header>
+    <h1>J.E.T.S. A static boilerplate with <i>Just Enough To Start!</i></h1>
 
-    <!-- Script Dependencies -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js'></script>
+    <!-- Insert awesome. -->
 
-    <!-- Load fonts after page render -->
     <script src='https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'></script>
-    <script>WebFont.load({google:{families:['Roboto:700,300,400:latin']}})</script>
-
-    <!-- Custom JS -->
-    <script src='js/main.js'></script>
-    <script></script>
-
-    <!-- Analytics Tracker -->
-    <script></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.slim.min.js'></script>
+    <script async src='https://google-analytics.com/analytics.js'></script>
+    <script src='js/jets.js'></script>
+    <script>
+      WebFont.load({google:{families:['Roboto:400,700:latin']}})
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new
+      Date,ga('create','UA-XXXXX-Y','auto'),ga('send','pageview')
+    </script>
 
   </body>
 </html>
