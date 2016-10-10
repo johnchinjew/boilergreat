@@ -5,7 +5,7 @@ html { box-sizing: border-box }
 *:after { box-sizing: inherit }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.4;
 }
 
@@ -17,5 +17,3 @@ a {
   text-decoration: none;
   box-shadow: 0 1px 0;
 }
-
-/* Insert awesome. */
