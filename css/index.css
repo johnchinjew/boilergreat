@@ -15,7 +15,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-  box-shadow: 0 1.5px 0 -.5px; 
+  box-shadow: 0 2px 0 -1px; 
 }
 
 /* class to hide screen reader text */
