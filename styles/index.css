@@ -1,8 +1,12 @@
 *,
 *:before,
-*:after { box-sizing: inherit; }
+*:after {
+  box-sizing: inherit;
+}
 
-html { box-sizing: border-box; }
+html {
+  box-sizing: border-box;
+}
 
 body {
   /* System font stack */
@@ -18,7 +22,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-  box-shadow: 0 2px 0 -1px; /* A better underline styling */
+  box-shadow: 0 2px 0 0; /* Nice underline styling */
 }
 
 /* Hide screen reader text */
